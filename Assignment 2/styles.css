@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #333;
+}
+
+nav li {
+    padding: 10px;
+    color: white;
+}
+
+nav li:hover {
+    background-color: #555;
+}
+
+/* Buttons Styling */
+.custom-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+/* Breed Info Styling */
+#breed-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#breed-info.hidden {
+    display: none;
+}
